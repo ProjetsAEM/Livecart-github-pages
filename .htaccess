@@ -1,3 +1,2 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^livecart.fr [NC]
+RewriteRule ^(.*)$ http://www.livecart.fr/$1 [L,R=301]
