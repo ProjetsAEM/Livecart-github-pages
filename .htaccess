@@ -1,2 +1,3 @@
+RewriteEngine On
 RewriteCond %{HTTP_HOST} ^livecart.fr [NC]
 RewriteRule ^(.*)$ http://www.livecart.fr/$1 [L,R=301]
