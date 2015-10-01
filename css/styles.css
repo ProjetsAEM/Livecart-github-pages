@@ -15,6 +15,10 @@ p {
   padding-bottom: 20px;
   margin-bottom: 40px; }
 
+  #phero{
+    color: white;
+  }
+
 h1 {
   font-size: 40px; }
 
@@ -88,6 +92,10 @@ section.intro, section.features-extra, section.sign-up {
 section.features, section.blog-intro, section.blog {
   background: #F3F4F8; }
 
+.qualifications-list{
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
 /* ==========================================================================
 Global Styles
 ========================================================================== */
