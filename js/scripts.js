@@ -68,7 +68,6 @@ $(document).ready(function() {
 			} else {
 				$('section.navigation').removeClass('fixed');
 				$('header').css({
-					"border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
 					"padding": "20px 0"
 				});
 				$('header .member-actions').css({
