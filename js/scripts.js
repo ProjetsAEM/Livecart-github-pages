@@ -1,23 +1,5 @@
 $(document).ready(function() {
 
-	/***************** Waypoints ******************/
-
-	$('.wp1').waypoint(function() {
-		$('.wp1').addClass('animated fadeInUp');
-	}, {
-		offset: '75%'
-	});
-	$('.wp2').waypoint(function() {
-		$('.wp2').addClass('animated fadeInUp');
-	}, {
-		offset: '75%'
-	});
-	$('.wp3').waypoint(function() {
-		$('.wp3').addClass('animated fadeInRight');
-	}, {
-		offset: '75%'
-	});
-
 	/***************** Initiate Flexslider ******************/
 	$('.flexslider').flexslider({
 		animation: "slide"
@@ -31,21 +13,6 @@ $(document).ready(function() {
 
 	/***************** Tooltips ******************/
     $('[data-toggle="tooltip"]').tooltip();
-
-	/***************** Nav Transformicon ******************/
-
-	/* When user clicks the Icon */
-	$('.nav-toggle').click(function() {
-		$(this).toggleClass('active');
-		$('.header-nav').toggleClass('open');
-		event.preventDefault();
-	});
-	/* When user clicks a link */
-	$('.header-nav li a').click(function() {
-		$('.nav-toggle').toggleClass('active');
-		$('.header-nav').toggleClass('open');
-
-	});
 
 	/***************** Header BG Scroll ******************/
 
