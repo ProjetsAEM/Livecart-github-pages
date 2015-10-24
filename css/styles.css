@@ -53,17 +53,6 @@ h5 {
   border-color: #FF5274;
   background-color: #FF5274; }
 
-.btn-white {
-  font-size: 13px;
-  border: solid 2px;
-  border-radius: 40px;
-  display: inline-block;
-  border-color: #fff; }
-
-.btn-white:hover, .btn-white:focus {
-  color: #FF5274;
-  border-color: #FF5274; }
-
 .btn-fill {
   color: #fff;
   border: solid 2px #FF5274;
@@ -92,10 +81,6 @@ section.intro, section.features-extra, section.sign-up {
 section.features, section.blog-intro, section.blog {
   background: #F3F4F8; }
 
-.qualifications-list{
-  margin-bottom: 2px;
-  padding-bottom: 2px;
-}
 /* ==========================================================================
 Global Styles
 ========================================================================== */
@@ -228,63 +213,6 @@ Navigation
   opacity: 0.9;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
-
-.nav-toggle {
-  position: absolute;
-  top: 0;
-  right: 15px;
-  z-index: 999999;
-  padding: 10px 35px 16px 0;
-  cursor: pointer; }
-
-.nav-toggle:focus {
-  outline: none; }
-
-.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 35px;
-  height: 3px;
-  border-radius: 1px;
-  background: #fff;
-  cursor: pointer; }
-
-.nav-toggle span:before {
-  top: -10px; }
-
-.nav-toggle span:after {
-  bottom: -10px; }
-
-.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out; }
-
-.nav-toggle.active span {
-  background-color: transparent; }
-
-.nav-toggle.active span:before, .nav-toggle.active span:after {
-  top: 0; }
-
-.nav-toggle.active span:before {
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg); }
-
-.nav-toggle.active span:after {
-  top: 10px;
-  -ms-transform: translatey(-10px) rotate(-45deg);
-  -webkit-transform: translatey(-10px) rotate(-45deg);
-  transform: translatey(-10px) rotate(-45deg); }
-
-.navicon {
-  position: absolute;
-  height: 26px;
-  right: 10px;
-  top: 48px;
-  visibility: hidden;
-  -webkit-transition: all 300ms ease-in-out;
-          transition: all 300ms ease-in-out; }
 
 /* ==========================================================================
 Hero
@@ -470,16 +398,12 @@ Sign up form
   padding-top: 40px;
 }
 
-.signup-form {
-  padding-bottom: 40px;
-}
-
-.sign-up .signup-form .sign-up-btn {
+.sign-up .sign-up-btn {
   padding: 20px 0;
   border-radius:3px;
   width: 80%;
   font-size: 13px; }
-.sign-up .signup-form .form-input-group {
+.sign-up .form-input-group {
   width: 80%;
   height: 55px;
   margin: 0 auto 10px;
@@ -487,50 +411,6 @@ Sign up form
   border: solid 1px #E6E9EA;
   text-align: left;
   position: relative; }
-  .sign-up .signup-form .form-input-group i {
-    color: #FF5274;
-    font-size: 14px; }
-  .sign-up .signup-form .form-input-group i:after {
-    content: "";
-    height: 30px;
-    width: 1px;
-    border-right: solid 1px #E6E9EA;
-    position: absolute;
-    top: 50%;
-    left: 30px;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%); }
-  .sign-up .signup-form .form-input-group i.fa-lock {
-    font-size: 18px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    margin-left: 20px; }
-  .sign-up .signup-form .form-input-group i.fa-envelope {
-    font-size: 14px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    margin-left: 20px; }
-  .sign-up .signup-form .form-input-group input {
-    padding-left: 68px;
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    border: none; }
-  .sign-up .signup-form .form-input-group input::-webkit-input-placeholder {
-    color: #BCC1C3; }
-  .sign-up .signup-form .form-input-group input:-moz-placeholder {
-    color: #BCC1C3; }
-  .sign-up .signup-form .form-input-group input::-moz-placeholder {
-    color: #BCC1C3; }
-  .sign-up .signup-form .form-input-group input:-ms-input-placeholder {
-    color: #BCC1C3; }
     
 /* ==========================================================================
 Footer
