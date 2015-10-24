@@ -26,9 +26,6 @@ $(document).ready(function() {
 					"border-bottom": "none",
 					"padding": "20px 0"
 				});
-				$('header .member-actions').css({
-					"top": "26px",
-				});
 				$('header .navicon').css({
 					"top": "34px",
 				});
