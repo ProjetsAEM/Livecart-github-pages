@@ -66,9 +66,6 @@ h5 {
   background-color: #D7405D;
   border-color: #D7405D; }
 
-.btn-small {
-  padding: 8px 40px; }
-
 .btn-large {
   padding: 15px 40px; }
 
@@ -227,11 +224,6 @@ Hero
   .hero h1 {
     color: #fff;
     margin-bottom: 30px; }
-  .hero p.intro {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 10px; }
   .hero .hero-content {
     padding-top: 13%; }
 
