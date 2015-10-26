@@ -72,10 +72,10 @@ h5 {
 .btn-margin-right {
   margin-right: 20px; }
 
-section.intro, section.features-extra, section.sign-up {
+section.sign-up {
   background: #fff; }
 
-section.features, section.blog-intro, section.blog {
+section.blog-intro, section.blog {
   background: #F3F4F8; }
 
 /* ==========================================================================
@@ -223,7 +223,7 @@ Hero
     color: #fff; }
   .hero h1 {
     color: #fff;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 60px; }
   .hero .hero-content {
     padding-top: 13%; }
@@ -281,8 +281,7 @@ Intro
   width: 80%; }
 
   #intro{
-    font-size: 20px;
-  }
+    font-size: 20px; }
 
 /* ==========================================================================
 .blog-intro
@@ -301,7 +300,7 @@ Intro
 .blog
 ========================================================================== */
 .blog {
-  padding-bottom: 50px; }
+    padding-bottom: 50px;}
   .blog img {
     width: 100%;
     height: auto;
