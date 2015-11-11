@@ -15,10 +15,6 @@ p {
   padding-bottom: 20px;
   margin-bottom: 40px; }
 
-  #phero{
-    color: white;
-  }
-
 h1 {
   font-size: 40px; }
 
@@ -260,6 +256,10 @@ header {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
+
+#phero{
+    color: white;
+  }
 
 /* ==========================================================================
 Intro
